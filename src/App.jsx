@@ -6,7 +6,7 @@ function App() {
   return (
     <><div className='font-bold'>{count}</div>
       <button onClick={()=>{setCount(count+1)}} className='px-3 py-1 bg-blue-400 rounded-md'>click me</button>
-      <Product name='apple' info={{region:"india", year:"2025"}}/>
+      <Product name='apple' info={{region:"indiaUS", year:"2025"}}/>
     </>
 
   )
